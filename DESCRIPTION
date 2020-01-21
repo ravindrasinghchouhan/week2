@@ -1,0 +1,14 @@
+Package: week2
+Type: Package
+Title: Peer-graded Assignment: Building an R Package
+Version: 0.0.1
+Author: Ravindra Singh Chouhan <email@example.com>
+Maintainer: Ravindra Singh Chouhan <email@example.com>
+Description: Functions to interact with data from the US National Highway Traffic Safety Administration's Fatality Analysis Reporting System.
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Depends: dplyr, readr, graphics, maps, tidyr
+Suggests: knitr, rmarkdown, testthat
+VignetteBuilder: knitr
