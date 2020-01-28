@@ -1,5 +1,7 @@
-# Coursera: Building an R Package [![Build Status](https://travis-ci.org/ZeroStack/week2.svg?branch=master)](https://travis-ci.org/ZeroStack/week2)
-
+# Coursera: Building an R Package 
+  <!-- badges: start -->
+  [![Travis build status](https://travis-ci.org/ravindrasinghchouhan/week2.svg?branch=master)](https://travis-ci.org/ravindrasinghchouhan/week2)
+  <!-- badges: end -->
 ## Review criteria
 
 For this assignment you'll submit a link to the GitHub repository which contains your package. This assessment will ask reviewers the following questions:
