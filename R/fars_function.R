@@ -49,6 +49,7 @@ make_filename <- function(year) {
 #' \dontrun{
 #' fars_read_years(c(2014,2015))
 #' }
+#' @import dplyr
 #' @importFrom dplyr mutate
 #' @importFrom dplyr select
 #'
@@ -59,7 +60,7 @@ fars_read_years <- function(years) {
     tryCatch({
       dat <- fars_read(file)
       dplyr::mutate(dat, year = year) %>%
-        dplyr::select(MONTH, year)
+      dplyr::select(MONTH, year)
     }, error = function(e) {
       warning("invalid year: ", year)
       return(NULL)
